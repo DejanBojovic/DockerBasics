@@ -9,5 +9,4 @@ spec:
       containers:
         - name: client
           image: client:0.1
-          command: ['echo', 'Hello there']
       restartPolicy: Never
